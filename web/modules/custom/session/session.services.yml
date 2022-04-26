@@ -1,0 +1,15 @@
+services:
+  my_config_events_subscriber:
+    class: '\Drupal\session\EventSubscriber\ConfigEventsSubscriber'
+    tags:
+      - {name: 'event_subscriber'}
+
+  # Subscriber to the event we dispatch in hook_user_login.
+  session_user_login:
+    class: '\Drupal\session\EventSubscriber\UserLoginSubscriber'
+    tags:
+      - { name: 'event_subscriber' }
+  
+  
+  
+  

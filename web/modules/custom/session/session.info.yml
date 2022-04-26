@@ -1,0 +1,5 @@
+type: module
+name: Session
+description: 'Module For Drupal Session'
+package: Custom
+core_version_requirement: ^8 || ^9

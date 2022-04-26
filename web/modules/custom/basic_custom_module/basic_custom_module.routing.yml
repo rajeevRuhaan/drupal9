@@ -1,0 +1,8 @@
+basic_custom.custom:
+  path: "/basic/custom"
+  defaults:
+    _controller: '\Drupal\basic_custom_module\Controller\BasicCustomExampleController::basicCustom'
+    _title: "Basic Custom Module Drupal 9"
+  requirements:
+    #_access: "TRUE"
+    _permission: "access content"
